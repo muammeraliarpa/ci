@@ -9,7 +9,7 @@ env:
   DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
   DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
   BUILD_NUMBER: ${{ github.run_number }}
-  IMAGE_NAME: my-app
+  IMAGE_NAME: myapp
 
 jobs:
   build-and-push:
