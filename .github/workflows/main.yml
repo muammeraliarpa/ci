@@ -36,7 +36,9 @@ jobs:
         run: |
           docker push ${{ env.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.BUILD_NUMBER }}
 
-      
+  imageTag-updater:
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
