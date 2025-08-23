@@ -51,5 +51,6 @@ jobs:
           REPO_NAME: 'cd'
           REPO_OWNER: 'muammeraliarpa'
           FILE_PATH: 'deployment.yaml'
+          IMAGE_NAME: 'myapp'  
           IMAGE_TAG: ${{ env.BUILD_NUMBER }}
 
