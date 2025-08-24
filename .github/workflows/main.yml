@@ -50,7 +50,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           REPO_NAME: 'cd'
           REPO_OWNER: 'muammeraliarpa'
-          FILE_PATH: 'deployment.yaml'
-          IMAGE_NAME: 'muammerarpa/myapp'  
+          FILE_PATH: 'deployment.yaml'  
           IMAGE_TAG: ${{ env.BUILD_NUMBER }}
 
